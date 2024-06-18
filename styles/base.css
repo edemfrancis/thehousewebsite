@@ -9,12 +9,16 @@
 }
 
 #header{
-    background-color: #71717118;
+    background-color: #fffefe18;
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+}
+#header{
+    width: 300px;
+    background-color: #4590ce6e;
 }
 #header, #animation{
     margin: 0 auto;
@@ -43,7 +47,7 @@ header p{
 
 nav {
     width: 100%;
-    background-color: rgba(32, 212, 212, 0.219);
+    background-color: rgba(32, 155, 212, 0.137);
     margin: 0.5rem;
 }
 li{
@@ -52,8 +56,17 @@ li{
     margin: 0.5rem;
     text-align: center;
 }
+b{
+    color: #aaa5a586;
+}
  nav a{
-    font-size: 1.5rem;
+    color: #0019f8dc;
+    display: block;
+    font-size: 1.3rem;
+    text-decoration: none;
+    background-color: #6284f32f;
+    padding: 0.2rem;
+    border-radius: 5px;
  }
 .horizontal{
     display: flex;
@@ -108,12 +121,10 @@ button:hover{
     right: 20px;
     top: 0;
     cursor: pointer;
-    background-color: rgba(180, 67, 67, 0.788);
     border-radius: 5px;
 }
 
 .numbertext {
-  color: #ff0101;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
