@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(234, 241, 239, 0.753);
+}
+
+.web-body {
+    text-align: center;
+    max-width:  900px;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 120px 800px 80px 60px 80px 80px;
+    
+}
+.header-nav img{
+    width: 50px;
+}
+.header-nav{
+    
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;}
+li{
+    list-style-type: none;
+}
+
+header{
+    background-color: rgba(190, 154, 154, 0.534);
+}
+
+.divided-1{
+    grid-row: 2 / -2;
+    background-color: blue;
+}
+.divided-2{
+    background-color: blue;
+}
+
+main{
+    grid-column: 2 / 12;
+    background-color: yellow;
+}
+
+.orange{
+    grid-column: 2 / -1;
+    background-color: orange;
+}
+
+footer{
+    background-color: green;
+    grid-column: 1 / -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This is a good way for laying out the width and fit in your content, i Hope i remember this very well
+i learnt this from https://v2.scrimba.com/learn-css-grid-c02k/~08
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+}
+
+.horizontal {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+*/

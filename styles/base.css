@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#headerdesign{
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr));
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+#header{
+    background-color: #71717118;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+#header, #animation{
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+header p{
+    margin-top: -1.9rem;
+    padding: 0.2rem;
+}
+#header img{
+    width: 80px;
+    margin: 0.2rem;
+    right: 4px;
+    border-radius: 40px;
+}
+
+#headerdesign p{
+    padding-top: -10rem;
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(32, 212, 212, 0.219);
+    margin: 0.5rem;
+}
+li{
+    width: 100%;
+    list-style: none;
+    margin: 0.5rem;
+    text-align: center;
+}
+ nav a{
+    font-size: 1.5rem;
+ }
+.horizontal{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Slide Show CSS */
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 400px;
+  position: relative;
+  margin: 0 auto;
+}
+.slideshow-container h2, .slideshow-container p{
+    text-align: center;
+    background-color: #ccddd45b;
+}
+.slideshow-container h3{
+    color: rgb(255, 255, 255);
+}
+
+/* Caption text */
+.text{
+  color: #f2f2f2;
+  font-size: 25px;
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  text-align: center;
+}
+.text p{
+    font-size: clamp(1rem, 0.5rem + 10vh, 3rem)   
+}
+
+/* Number text (1/3 etc) And Button X*/
+
+.slide-container{
+    width: 80%;
+    margin: 0.5rem auto;
+}
+button:hover{
+    cursor: pointer;
+}
+.button-x{
+    margin: 0.5rem;
+    padding: 8px 12px;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(180, 67, 67, 0.788);
+    border-radius: 5px;
+}
+
+.numbertext {
+  color: #ff0101;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+
+.dots{
+    text-align: center;
+    margin: -0.5rem;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
