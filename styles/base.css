@@ -3,11 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-#headerdesign{
-    width: 500px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(1fr));
-    justify-content: center;
+#headerdesign, main, footer{
+    max-width: 900px;
     margin: 1rem auto;
 }
 
