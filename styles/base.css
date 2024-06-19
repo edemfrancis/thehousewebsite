@@ -53,13 +53,17 @@ a{
 }
 
 /* Main Css */
-main div{
-  width: 360px;
+main{
+  display: flex;
   text-align: center;
 }
+main div{
+  display: flex;
+  justify-content: center;
+}
 main div img{
-  width: 100%;
-  align-items: center;
+  width: 360px;
+  text-align: center;
 }
 /* Slide Show CSS */
 .slide-container{
